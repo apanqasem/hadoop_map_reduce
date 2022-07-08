@@ -33,5 +33,4 @@ for line in input_stream:
   # extract the words from the line     
   words=line.split()
   for word in words: 
-    if word not in stop_words:
       print('%s\t%s' % (word, 1))
